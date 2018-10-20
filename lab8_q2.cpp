@@ -9,8 +9,8 @@ void print(int arr[])
 for(int i=0;i<5;i++)
 {
 //printing the elements
-cout<<arr[i]<<" "<<endl;
-}}
+cout<<arr[i]<<" ";
+}cout<<endl;}
 //declaring function
 int largest(int arr[])
 //variable declaration
@@ -123,6 +123,7 @@ int main()
 	//declaring array
 	int arr[5]={4,6,3,9,9};
 	//printing all the result
+	cout<<"the elements in the array are:";
 	print(arr);
 	cout<<"largest element is "<<largest(arr)<<endl;
 	cout<<"smallest element is "<<smallest(arr)<<endl;
